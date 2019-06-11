@@ -16,7 +16,7 @@ int main()
             break;
         }
     }
-    if(!hasRep) printf("no unique");
+    if(!hasRep) printf("unique");
 
     return 0;
 }
