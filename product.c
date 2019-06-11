@@ -14,7 +14,7 @@ for(i=0;i<n;i++)
     prod=prod*arr[i];
 }
 
-printf("%d",prod);
+printf("%d",abs(prod));
 
 
 return 0;
