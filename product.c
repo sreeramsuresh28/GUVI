@@ -1,20 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int n,prod=1,i;
+   long long int n,prod=1,i;
  
-    scanf("%d",&n);
+    scanf("%lld",&n);
     int arr[n];
    for(i=0;i<n;i++)
 {
-    scanf("%d",&arr[i]);
+    scanf("%lld",&arr[i]);
 }
 for(i=0;i<n;i++)
 {
     prod=prod*arr[i];
 }
 
-printf("%d",abs(prod));
+printf("%lld",abs(prod));
 
 
 return 0;
