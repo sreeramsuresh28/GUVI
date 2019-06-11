@@ -6,7 +6,7 @@ int main()
     char num;
     scanf("%c",&num);
     if(isalpha(num) == 0)   {
-        printf("invalid");
+        printf("Invalid");
         return 0;
     }
 
